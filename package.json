@@ -1,5 +1,5 @@
 {
-  "name": "flyde-coc-tools",
+  "name": "flyde-bmacroeditor",
   "version": "0.0.01",
   "description": "",
   "flyde": {
@@ -16,46 +16,32 @@
     "@blueprintjs/core": "^5.0.0",
     "@blueprintjs/select": "^5.0.20",
     "@flyde/core": "latest",
-    "@flyde/resolver": "^0.4.59",
     "@flyde/runtime": "^0.5.59",
-    "@types/pg": "^8.10.2",
     "@types/react": "^18.2.0",
-    "axios": "^0.27.2",
-    "mongodb": "^4.17.0",
-    "pg": "^8.11.3",
-    "pubsub-js": "^1.9.4",
-    "react": "^18.2.0",
-    "yaml": "^2.4.2"
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/jscodeshift": "^0.11.6",
-    "@types/mocha": "^10.0.1",
-    "chai": "^4.3.7",
-    "concurrently": "^7.6.0",
     "css-loader": "^6.8.1",
-    "jscodeshift": "^0.15.0",
-    "mocha": "^10.2.0",
-    "nodemon": "^2.0.22",
-    "sinon": "^15.2.0",
     "ts-loader": "^9.5.1",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5",
     "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "concurrently": "^7.6.0"
   },
   "scripts": {
-    "test": "mocha src/**/*.spec.ts --require ts-node/register",
-    "echo": "echo 'no watch'",
-    "watch": "concurrently --kill-others \"pnpm run watch:ts\" \"pnpm run watch:docs-data\" \"pnpm run macros:watch\"",
-    "watch:ts": "tsc -p . -w --incremental",
-    "watch:docs-data": "nodemon --watch scripts --watch src -e ts --exec \"ts-node scripts/docs-data.ts\"",
     "dev": "pnpm run watch",
+    "watch": "concurrently --kill-others \"pnpm run watch:ts\" \"pnpm run macros:watch\"",
+    "build": "tsc -p tsconfig.build.json && pnpm run macros:bundle",
+    "b-dev": "bun run b-watch",
+    "b-watch": "concurrently --kill-others \"bun run watch:ts\" \"bun run macros:watch\"",
+    "b-build": "tsc -p tsconfig.build.json && bun run macros:bundle",
     "macros:bundle": "webpack --config webpack.config.js",
     "macros:watch": "webpack --config webpack.config.js --watch",
-    "build": "rm -rf dist && tsc -p tsconfig.build.json && pnpm run macros:bundle && pnpm run build:docs-data",
-    "build:docs-data": "ts-node src/docs-data.ts",
-    "prod": "node dist/index.js",
+    "watch:ts": "tsc -p . -w --incremental",
+    "ins-vscexdir":"pnpm ts-node ./test/ins-vscexdir.ts",
+    "bins-vscexdir":"bun ts-node ./test/ins-vscexdir.ts",
     "__publish": "npm version patch && npm publish"
   }
 }

@@ -12,13 +12,15 @@ const Macromyeditor: MacroEditorComp<InlineValueConfig> =
 
     const style: { [key: string]: string } = {
       width: "300px",
-	    height: "200px"
+	    height: "300px",
     };
 
     return (
       <div>
-        <Card interactive={true} elevation={Elevation.ONE}>
-          <img src={value.pic} style={style}></img>
+        <Card interactive={true} elevation={Elevation.ONE} style={{alignItems: 'center'}}>
+          <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center",}}>
+            <img src={value.pic} style={style}></img>
+          </div>
         </Card>
       </div>
     );

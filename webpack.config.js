@@ -2,10 +2,6 @@ const path = require("path");
 
 const pairs = [
   {
-    entry: "./src/InlineValue2.tsx",
-    name: "InlineValue2",
-  },
-  {
     entry: "./src/Macro.tsx",
     name: "Macro",
   },
