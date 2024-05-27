@@ -1,0 +1,1004 @@
+imports:
+  "@flyde/stdlib":
+    - InlineValue
+    - Read File
+    - JSON Parse
+    - Keys
+    - GetAttribute
+    - SpreadList
+    - Concat
+    - Write File
+    - Index Of
+    - Substring
+    - Length
+    - Conditional
+node:
+  instances:
+    - pos:
+        x: -337.9186865234375
+        y: -584.1651171875001
+      id: Read File-nb04992
+      inputConfig: {}
+      nodeId: Read File
+    - pos:
+        x: -395.4655444335938
+        y: -740.9573974609375
+      id: lopxg1c9wf6djwm933o735pg
+      inputConfig: {}
+      nodeId: InlineValue__lopxg1c9wf6djwm933o735pg
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: test/test_config.json
+        label: '"path:test_config.json"'
+    - pos:
+        x: -344.87768798828125
+        y: -405.9419116210937
+      id: JSON Parse-mq149fc
+      inputConfig: {}
+      nodeId: JSON Parse
+    - pos:
+        x: -289.4169287109375
+        y: -82.68502892782368
+      id: gz34gp3gk800u9y0dg2j20p4
+      inputConfig: {}
+      nodeId: GetAttribute__gz34gp3gk800u9y0dg2j20p4
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -109.4715869140625
+        y: -319.6650276130409
+      id: Keys-oa049mk
+      inputConfig: {}
+      nodeId: Keys
+    - pos:
+        x: -154.96149658203126
+        y: -223.37251784741585
+      id: xm38sm5w5tt66a79yiaftlaj
+      inputConfig: {}
+      nodeId: SpreadList__xm38sm5w5tt66a79yiaftlaj
+      macroId: SpreadList
+      macroData:
+        count: 1
+    - pos:
+        x: -271.4817431640625
+        y: 30.95092392504506
+      id: Keys-gz549b9
+      inputConfig: {}
+      nodeId: Keys
+    - pos:
+        x: -340.73671142578127
+        y: 200.23161850512318
+      id: kn5ov4yr46kkga1ssa9fv4qx
+      inputConfig: {}
+      nodeId: SpreadList__kn5ov4yr46kkga1ssa9fv4qx
+      macroId: SpreadList
+      macroData:
+        count: 7
+    - pos:
+        x: -669.5638110351563
+        y: 342.846611791256
+      id: ygf9m3nh4pj53j9ep8l0r0iw
+      inputConfig: {}
+      nodeId: GetAttribute__ygf9m3nh4pj53j9ep8l0r0iw
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -467.75370361328123
+        y: 342.7902800041466
+      id: lain6n5yjmum4ri6k70r67qn
+      inputConfig: {}
+      nodeId: GetAttribute__lain6n5yjmum4ri6k70r67qn
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -265.00962890625
+        y: 339.9414677482872
+      id: l9n1cke2rwq2dpxh2ae8hzmy
+      inputConfig: {}
+      nodeId: GetAttribute__l9n1cke2rwq2dpxh2ae8hzmy
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -57.613266601562486
+        y: 341.87700180590446
+      id: nqmlcghm4p0mx591dsglt40z
+      inputConfig: {}
+      nodeId: GetAttribute__nqmlcghm4p0mx591dsglt40z
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -538.05833984375
+        y: 515.7379862387048
+      id: Concat-ya049uv
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -346.8768310546875
+        y: 516.0486743164063
+      id: Concat-xu149sm
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -995.1698901367188
+        y: 519.1562841825129
+      id: Read File-9u0496w
+      inputConfig: {}
+      visibleInputs:
+        - path
+      nodeId: Read File
+    - pos:
+        x: -771.648251953125
+        y: 517.5698632840754
+      id: Read File-pe1495q
+      inputConfig: {}
+      visibleInputs:
+        - path
+      nodeId: Read File
+    - pos:
+        x: -1005.2126171875
+        y: 173.06820190712227
+      id: vympgcx8ult2hjrpl32kpvcu
+      inputConfig: {}
+      nodeId: InlineValue__vympgcx8ult2hjrpl32kpvcu
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: /Macro.js
+        label: '"/Macro.js"'
+    - pos:
+        x: -827.4393212890625
+        y: 170.16489868446604
+      id: yfpxt9ryoxfxdkj787tznh59
+      inputConfig: {}
+      nodeId: InlineValue__yfpxt9ryoxfxdkj787tznh59
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: /Macro.flyde.js
+        label: '"/Macro.flyde.js"'
+    - pos:
+        x: -1135.20853515625
+        y: 172.86845947548167
+      id: licg94xlo21de4w4y4q32url
+      inputConfig: {}
+      nodeId: InlineValue__licg94xlo21de4w4y4q32url
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: src
+        label: '"src"'
+    - pos:
+        x: -1071.7379931640626
+        y: 317.1062841825129
+      id: Concat-qm349sh
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -823.451552734375
+        y: 309.12727783203127
+      id: Concat-bd449g2
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -554.096240234375
+        y: 663.6878237915039
+      id: Concat-rc049zg
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -357.1634326171875
+        y: 657.4525204467774
+      id: Concat-w6149tx
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 147.41440795898438
+        y: 345.1969903551415
+      id: rm4giqpdglyukc8stiazb6b6
+      inputConfig: {}
+      nodeId: GetAttribute__rm4giqpdglyukc8stiazb6b6
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: -319.638544921875
+        y: 981.3802522492593
+      id: Write File-tt349us
+      inputConfig: {}
+      nodeId: Write File
+    - pos:
+        x: -506.44402832031255
+        y: 981.7619844496445
+      id: Write File-br049ko
+      inputConfig: {}
+      nodeId: Write File
+    - pos:
+        x: -124.968505859375
+        y: 516.8106626843318
+      id: Concat-sg0493s
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 156.51808349609374
+        y: 513.1223417614801
+      id: Concat-oo149jr
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -130.3656591796875
+        y: 672.2727641247616
+      id: Read File-i3049ir
+      inputConfig: {}
+      nodeId: Read File
+    - pos:
+        x: 161.393994140625
+        y: 652.9507334851131
+      id: Read File-2f149n6
+      inputConfig: {}
+      nodeId: Read File
+    - pos:
+        x: 43.40185302734375
+        y: 911.7308198498591
+      id: Concat-p52491x
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 295.9613159179687
+        y: 463.88857833374595
+      id: gwpwd6a0c5am5qcaqgciczkr
+      inputConfig: {}
+      nodeId: InlineValue__gwpwd6a0c5am5qcaqgciczkr
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: __exportStar(require("./
+        label: '"__exportStar(requir...'
+    - pos:
+        x: 325.15622314453117
+        y: 649.9526168485554
+      id: Concat-ct049jl
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 350.4621374511719
+        y: 348.1742395107718
+      id: b37fuhp5jm4td8hh8s27mj8j
+      inputConfig: {}
+      nodeId: GetAttribute__b37fuhp5jm4td8hh8s27mj8j
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: 549.6931561279298
+        y: 343.3278137295217
+      id: la6pj3fftpnc07e0o9kngt48
+      inputConfig: {}
+      nodeId: GetAttribute__la6pj3fftpnc07e0o9kngt48
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: dynamic
+    - pos:
+        x: 397.6490722656249
+        y: 738.6847735683891
+      id: Concat-zf04956
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 471.0935760498046
+        y: 653.5660694210501
+      id: gcrj1o2iqjdbhvs3w542ux29
+      inputConfig: {}
+      nodeId: InlineValue__gcrj1o2iqjdbhvs3w542ux29
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: '"), exports);'
+        label: '"\"), exports);"'
+    - pos:
+        x: 646.7020178222656
+        y: 460.6002917431697
+      id: ysmsj1ylu1uf2bmduc1y84in
+      inputConfig: {}
+      nodeId: InlineValue__ysmsj1ylu1uf2bmduc1y84in
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: ", all_browser_1."
+        label: '", all_browser_1."'
+    - pos:
+        x: 720.7882006835937
+        y: 647.2258962963924
+      id: Concat-cw049mc
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 415.638681793213
+        y: 884.1797459362849
+      id: Index Of-qc0496j
+      inputConfig: {}
+      nodeId: Index Of
+    - pos:
+        x: 857.8289693373442
+        y: 724.2313066052303
+      id: f3tqw47rpdxrzg6s7r8j5mr3
+      inputConfig: {}
+      nodeId: InlineValue__f3tqw47rpdxrzg6s7r8j5mr3
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: Values & Custom Code
+        label: '"Values & Custom Cod...'
+    - pos:
+        x: 530.5831621122361
+        y: 1035.7529325817927
+      id: Index Of-l2149o4
+      inputConfig: {}
+      nodeId: Index Of
+    - pos:
+        x: 950.88287109375
+        y: 860.8878118619009
+      id: godeoxoxbv6xewvx11whyhac
+      inputConfig: {}
+      nodeId: InlineValue__godeoxoxbv6xewvx11whyhac
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: "],"
+        label: '"],"'
+    - pos:
+        x: 498.6365621566772
+        y: 1285.6676500424428
+      id: Substring-rw149ma
+      inputConfig: {}
+      nodeId: Substring
+    - pos:
+        x: 606.6078084564208
+        y: 747.0948973568961
+      id: vkmncc9q3kerwwyla0raqt59
+      inputConfig: {}
+      nodeId: InlineValue__vkmncc9q3kerwwyla0raqt59
+      macroId: InlineValue
+      macroData:
+        value: 0
+        type: number
+        label: "0"
+    - pos:
+        x: 846.9403856027127
+        y: 1275.1401085385364
+      id: Substring-uj249ts
+      inputConfig: {}
+      nodeId: Substring
+    - pos:
+        x: 255.64259803771984
+        y: 995.867398577599
+      id: Length-sf349rp
+      inputConfig: {}
+      nodeId: Length
+    - pos:
+        x: 274.70337276458736
+        y: 1136.284118734682
+      id: aaaukfo5ozi1k7yvxwxnb6pd
+      inputConfig: {}
+      nodeId: InlineValue__aaaukfo5ozi1k7yvxwxnb6pd
+      macroId: InlineValue
+      macroData:
+        value: 0
+        type: number
+        label: "0"
+    - pos:
+        x: 475.3068966674805
+        y: 1134.1715716553147
+      id: Concat-k9049kz
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 780.5633164978028
+        y: 1015.2317010498457
+      id: za8nland69jr7ws7khxo0i3j
+      inputConfig: {}
+      nodeId: InlineValue__za8nland69jr7ws7khxo0i3j
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: ""
+        label: '""'
+    - pos:
+        x: 677.1495633506775
+        y: 1378.1532220459396
+      id: Concat-1u0495x
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: 759.0908196258545
+        y: 1470.6027239990647
+      id: Concat-jy149yo
+      inputConfig: {}
+      nodeId: Concat
+    - pos:
+        x: -30.233479003906268
+        y: 1256.2425579834396
+      id: Write File-ws24907
+      inputConfig: {}
+      visibleInputs:
+        - path
+        - contents
+        - __trigger
+      nodeId: Write File
+    - pos:
+        x: 750.7483800506591
+        y: 1595.9419378662521
+      id: Write File-gf349fc
+      inputConfig: {}
+      visibleInputs:
+        - path
+        - contents
+        - __trigger
+      nodeId: Write File
+    - pos:
+        x: -147.2961474609375
+        y: 1055.0142751785645
+      id: z7684zvf1lt4atzca5wnsohk
+      inputConfig: {}
+      nodeId: Conditional__z7684zvf1lt4atzca5wnsohk
+      macroId: Conditional
+      macroData:
+        compareTo:
+          mode: dynamic
+          propertyPath: ""
+        propertyPath: ""
+        condition:
+          type: CONTAINS
+        trueValue:
+          type: value
+        falseValue:
+          type: value
+    - pos:
+        x: 381.51845703125
+        y: 1469.066301545752
+      id: adntp6crhoa3288i9rkbnuuy
+      inputConfig: {}
+      nodeId: Conditional__adntp6crhoa3288i9rkbnuuy
+      macroId: Conditional
+      macroData:
+        compareTo:
+          mode: dynamic
+          propertyPath: ""
+        propertyPath: ""
+        condition:
+          type: CONTAINS
+        trueValue:
+          type: value
+        falseValue:
+          type: value
+    - pos:
+        x: -1306.010234375
+        y: 174.97855893100586
+      id: ho3h5al24exwkst8vh12dnif
+      inputConfig: {}
+      nodeId: InlineValue__ho3h5al24exwkst8vh12dnif
+      macroId: InlineValue
+      macroData:
+        type: string
+        value: dist/ui
+        label: '"dist/ui"'
+  connections:
+    - from:
+        insId: lopxg1c9wf6djwm933o735pg
+        pinId: value
+      to:
+        insId: Read File-nb04992
+        pinId: path
+    - from:
+        insId: Read File-nb04992
+        pinId: contents
+      to:
+        insId: JSON Parse-mq149fc
+        pinId: json
+    - from:
+        insId: JSON Parse-mq149fc
+        pinId: object
+      to:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: object
+    - from:
+        insId: JSON Parse-mq149fc
+        pinId: object
+      to:
+        insId: Keys-oa049mk
+        pinId: object
+    - from:
+        insId: Keys-oa049mk
+        pinId: keys
+      to:
+        insId: xm38sm5w5tt66a79yiaftlaj
+        pinId: list
+    - from:
+        insId: xm38sm5w5tt66a79yiaftlaj
+        pinId: item1
+      to:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: attribute
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: Keys-gz549b9
+        pinId: object
+    - from:
+        insId: Keys-gz549b9
+        pinId: keys
+      to:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: list
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item1
+      to:
+        insId: ygf9m3nh4pj53j9ep8l0r0iw
+        pinId: attribute
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: ygf9m3nh4pj53j9ep8l0r0iw
+        pinId: object
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: lain6n5yjmum4ri6k70r67qn
+        pinId: object
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item2
+      to:
+        insId: lain6n5yjmum4ri6k70r67qn
+        pinId: attribute
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item3
+      to:
+        insId: l9n1cke2rwq2dpxh2ae8hzmy
+        pinId: attribute
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: l9n1cke2rwq2dpxh2ae8hzmy
+        pinId: object
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item4
+      to:
+        insId: nqmlcghm4p0mx591dsglt40z
+        pinId: attribute
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: nqmlcghm4p0mx591dsglt40z
+        pinId: object
+    - from:
+        insId: ygf9m3nh4pj53j9ep8l0r0iw
+        pinId: value
+      to:
+        insId: Concat-ya049uv
+        pinId: a
+    - from:
+        insId: lain6n5yjmum4ri6k70r67qn
+        pinId: value
+      to:
+        insId: Concat-ya049uv
+        pinId: b
+    - from:
+        insId: l9n1cke2rwq2dpxh2ae8hzmy
+        pinId: value
+      to:
+        insId: Concat-xu149sm
+        pinId: b
+    - from:
+        insId: ygf9m3nh4pj53j9ep8l0r0iw
+        pinId: value
+      to:
+        insId: Concat-xu149sm
+        pinId: a
+    - from:
+        insId: vympgcx8ult2hjrpl32kpvcu
+        pinId: value
+      to:
+        insId: Concat-qm349sh
+        pinId: b
+    - from:
+        insId: yfpxt9ryoxfxdkj787tznh59
+        pinId: value
+      to:
+        insId: Concat-bd449g2
+        pinId: b
+    - from:
+        insId: licg94xlo21de4w4y4q32url
+        pinId: value
+      to:
+        insId: Concat-bd449g2
+        pinId: a
+    - from:
+        insId: Concat-qm349sh
+        pinId: value
+      to:
+        insId: Read File-9u0496w
+        pinId: path
+    - from:
+        insId: Concat-bd449g2
+        pinId: value
+      to:
+        insId: Read File-pe1495q
+        pinId: path
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item5
+      to:
+        insId: rm4giqpdglyukc8stiazb6b6
+        pinId: attribute
+    - from:
+        insId: Concat-ya049uv
+        pinId: value
+      to:
+        insId: Concat-rc049zg
+        pinId: a
+    - from:
+        insId: Concat-xu149sm
+        pinId: value
+      to:
+        insId: Concat-w6149tx
+        pinId: a
+    - from:
+        insId: vympgcx8ult2hjrpl32kpvcu
+        pinId: value
+      to:
+        insId: Concat-w6149tx
+        pinId: b
+    - from:
+        insId: yfpxt9ryoxfxdkj787tznh59
+        pinId: value
+      to:
+        insId: Concat-rc049zg
+        pinId: b
+    - from:
+        insId: Read File-9u0496w
+        pinId: contents
+      to:
+        insId: Write File-tt349us
+        pinId: contents
+    - from:
+        insId: Read File-pe1495q
+        pinId: contents
+      to:
+        insId: Write File-br049ko
+        pinId: contents
+    - from:
+        insId: Concat-rc049zg
+        pinId: value
+      to:
+        insId: Write File-br049ko
+        pinId: path
+    - from:
+        insId: Concat-w6149tx
+        pinId: value
+      to:
+        insId: Write File-tt349us
+        pinId: path
+    - from:
+        insId: Concat-ya049uv
+        pinId: value
+      to:
+        insId: Concat-sg0493s
+        pinId: a
+    - from:
+        insId: nqmlcghm4p0mx591dsglt40z
+        pinId: value
+      to:
+        insId: Concat-sg0493s
+        pinId: b
+    - from:
+        insId: rm4giqpdglyukc8stiazb6b6
+        pinId: value
+      to:
+        insId: Concat-oo149jr
+        pinId: b
+    - from:
+        insId: ygf9m3nh4pj53j9ep8l0r0iw
+        pinId: value
+      to:
+        insId: Concat-oo149jr
+        pinId: a
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: rm4giqpdglyukc8stiazb6b6
+        pinId: object
+    - from:
+        insId: Concat-sg0493s
+        pinId: value
+      to:
+        insId: Read File-i3049ir
+        pinId: path
+    - from:
+        insId: Concat-oo149jr
+        pinId: value
+      to:
+        insId: Read File-2f149n6
+        pinId: path
+    - from:
+        insId: Read File-i3049ir
+        pinId: contents
+      to:
+        insId: Concat-p52491x
+        pinId: a
+    - from:
+        insId: gwpwd6a0c5am5qcaqgciczkr
+        pinId: value
+      to:
+        insId: Concat-ct049jl
+        pinId: a
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item6
+      to:
+        insId: b37fuhp5jm4td8hh8s27mj8j
+        pinId: attribute
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: b37fuhp5jm4td8hh8s27mj8j
+        pinId: object
+    - from:
+        insId: gz34gp3gk800u9y0dg2j20p4
+        pinId: value
+      to:
+        insId: la6pj3fftpnc07e0o9kngt48
+        pinId: object
+    - from:
+        insId: kn5ov4yr46kkga1ssa9fv4qx
+        pinId: item7
+      to:
+        insId: la6pj3fftpnc07e0o9kngt48
+        pinId: attribute
+    - from:
+        insId: b37fuhp5jm4td8hh8s27mj8j
+        pinId: value
+      to:
+        insId: Concat-ct049jl
+        pinId: b
+    - from:
+        insId: Concat-ct049jl
+        pinId: value
+      to:
+        insId: Concat-zf04956
+        pinId: a
+    - from:
+        insId: gcrj1o2iqjdbhvs3w542ux29
+        pinId: value
+      to:
+        insId: Concat-zf04956
+        pinId: b
+    - from:
+        insId: Concat-zf04956
+        pinId: value
+      to:
+        insId: Concat-p52491x
+        pinId: b
+    - from:
+        insId: la6pj3fftpnc07e0o9kngt48
+        pinId: value
+      to:
+        insId: Concat-cw049mc
+        pinId: b
+    - from:
+        insId: ysmsj1ylu1uf2bmduc1y84in
+        pinId: value
+      to:
+        insId: Concat-cw049mc
+        pinId: a
+    - from:
+        insId: Read File-2f149n6
+        pinId: contents
+      to:
+        insId: Index Of-qc0496j
+        pinId: string
+    - from:
+        insId: f3tqw47rpdxrzg6s7r8j5mr3
+        pinId: value
+      to:
+        insId: Index Of-qc0496j
+        pinId: searchValue
+    - from:
+        insId: godeoxoxbv6xewvx11whyhac
+        pinId: value
+      to:
+        insId: Index Of-l2149o4
+        pinId: searchValue
+    - from:
+        insId: Read File-2f149n6
+        pinId: contents
+      to:
+        insId: Index Of-l2149o4
+        pinId: string
+    - from:
+        insId: Index Of-qc0496j
+        pinId: value
+      to:
+        insId: Index Of-l2149o4
+        pinId: fromIndex
+    - from:
+        insId: Index Of-l2149o4
+        pinId: value
+      to:
+        insId: Substring-rw149ma
+        pinId: end
+    - from:
+        insId: Read File-2f149n6
+        pinId: contents
+      to:
+        insId: Length-sf349rp
+        pinId: string
+    - from:
+        insId: Length-sf349rp
+        pinId: value
+      to:
+        insId: Substring-uj249ts
+        pinId: end
+    - from:
+        insId: vkmncc9q3kerwwyla0raqt59
+        pinId: value
+      to:
+        insId: Index Of-qc0496j
+        pinId: fromIndex
+    - from:
+        insId: aaaukfo5ozi1k7yvxwxnb6pd
+        pinId: value
+      to:
+        insId: Substring-rw149ma
+        pinId: start
+    - from:
+        insId: Index Of-l2149o4
+        pinId: value
+      to:
+        insId: Substring-uj249ts
+        pinId: start
+    - from:
+        insId: Read File-2f149n6
+        pinId: contents
+      to:
+        insId: Concat-k9049kz
+        pinId: a
+    - from:
+        insId: za8nland69jr7ws7khxo0i3j
+        pinId: value
+      to:
+        insId: Concat-k9049kz
+        pinId: b
+    - from:
+        insId: Concat-k9049kz
+        pinId: value
+      to:
+        insId: Substring-rw149ma
+        pinId: string
+    - from:
+        insId: Concat-k9049kz
+        pinId: value
+      to:
+        insId: Substring-uj249ts
+        pinId: string
+    - from:
+        insId: Concat-cw049mc
+        pinId: value
+      to:
+        insId: Concat-1u0495x
+        pinId: b
+    - from:
+        insId: Substring-rw149ma
+        pinId: value
+      to:
+        insId: Concat-1u0495x
+        pinId: a
+    - from:
+        insId: Concat-1u0495x
+        pinId: value
+      to:
+        insId: Concat-jy149yo
+        pinId: a
+    - from:
+        insId: Substring-uj249ts
+        pinId: value
+      to:
+        insId: Concat-jy149yo
+        pinId: b
+    - from:
+        insId: Concat-p52491x
+        pinId: value
+      to:
+        insId: Write File-ws24907
+        pinId: contents
+    - from:
+        insId: Concat-sg0493s
+        pinId: value
+      to:
+        insId: Write File-ws24907
+        pinId: path
+    - from:
+        insId: Concat-jy149yo
+        pinId: value
+      to:
+        insId: Write File-gf349fc
+        pinId: contents
+    - from:
+        insId: Concat-oo149jr
+        pinId: value
+      to:
+        insId: Write File-gf349fc
+        pinId: path
+    - from:
+        insId: z7684zvf1lt4atzca5wnsohk
+        pinId: "false"
+      to:
+        insId: Write File-ws24907
+        pinId: __trigger
+    - from:
+        insId: Read File-i3049ir
+        pinId: contents
+      to:
+        insId: z7684zvf1lt4atzca5wnsohk
+        pinId: value
+    - from:
+        insId: Concat-zf04956
+        pinId: value
+      to:
+        insId: z7684zvf1lt4atzca5wnsohk
+        pinId: compareTo
+    - from:
+        insId: adntp6crhoa3288i9rkbnuuy
+        pinId: "false"
+      to:
+        insId: Write File-gf349fc
+        pinId: __trigger
+    - from:
+        insId: Read File-2f149n6
+        pinId: contents
+      to:
+        insId: adntp6crhoa3288i9rkbnuuy
+        pinId: value
+    - from:
+        insId: Concat-cw049mc
+        pinId: value
+      to:
+        insId: adntp6crhoa3288i9rkbnuuy
+        pinId: compareTo
+    - from:
+        insId: ho3h5al24exwkst8vh12dnif
+        pinId: value
+      to:
+        insId: Concat-qm349sh
+        pinId: a
+  id: Example
+  inputs: {}
+  outputs: {}
+  inputsPosition: {}
+  outputsPosition:
+    result:
+      x: -23.264428942324532
+      y: 237.25953921502617
