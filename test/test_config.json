@@ -1,6 +1,6 @@
 {
     "installPath":{
-        "vscodeExtinsionPath":"c://users/pa-pa/.vscode/extensions/flyde.flyde-vscode-0.62.0/node_modules/@flyde/stdlib/dist",
+        //"vscodeExtinsionPath":"c://users/{user name}/.vscode/extensions/flyde.flyde-vscode-0.62.0/node_modules/@flyde/stdlib/dist",
         "nodePath":"/Values",
         "macroEditorPath":"/ui",
         "nodePathEntry":"/index.js",
